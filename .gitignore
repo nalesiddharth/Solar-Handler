@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+env/
+venv/
+.env
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase service account
+irradianceprediction-firebase-adminsdk-*.json
+
+#datasets
+irradianceprediction-default-rtdb-export.json
+dataset.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
+
+# Arduino / PlatformIO
+.pio/
+
+# Logs
+*.log
+
+# Ignore local secrets
+secrets.json

@@ -1,0 +1,1829 @@
+{
+  "cleaning_effectiveness": {
+    "-OQ7CxcXpglfHRjdJIaw": {
+      "improvement_percent": -56.24488124488125,
+      "post_cleaning_voltage": 0.008548,
+      "pre_cleaning_voltage": 0.019536,
+      "time": "2025-05-13 11:27:06.237243",
+      "voltage_improvement": -0.010988000000000001
+    },
+    "-OQ7E_EFFsVTDyUhL6Xs": {
+      "improvement_percent": 18212.16658867571,
+      "post_cleaning_voltage": 1.565324,
+      "pre_cleaning_voltage": 0.008548,
+      "time": "2025-05-13 11:34:10.498344",
+      "voltage_improvement": 1.556776
+    }
+  },
+  "cleaning_history": {
+    "-OQ7Bim-Os6_DH7tEzXC": {
+      "status": "initiated",
+      "time": "2025-05-13 11:21:43.293019",
+      "trigger": "manual"
+    },
+    "-OQ7BrPEZJROwVJqa52g": {
+      "status": "initiated",
+      "time": "2025-05-13 11:22:18.668276",
+      "trigger": "manual"
+    },
+    "-OQ7DLtZfNiyiNfG0XDR": {
+      "status": "initiated",
+      "time": "2025-05-13 11:28:49.696506",
+      "trigger": "manual"
+    },
+    "-OQ7EfvRUhqdYJW4DJrB": {
+      "status": "initiated",
+      "time": "2025-05-13 11:34:38.079235",
+      "trigger": "manual"
+    }
+  },
+  "commands": {
+    "clean": true
+  },
+  "model_info": {
+    "features_env": [
+      "lux",
+      "temperature",
+      "humidity",
+      "solar_voltage_lag1",
+      "lux_lag1"
+    ],
+    "features_time": [
+      "hour_sin",
+      "hour_cos",
+      "day_sin",
+      "day_cos",
+      "month_sin",
+      "month_cos"
+    ],
+    "last_trained": "2025-05-13 08:08:52.989269",
+    "training_samples": 127
+  },
+  "next_hour_predictions": [
+    null,
+    3.4316000938415527,
+    3.446899890899658,
+    3.462100028991699,
+    3.4755001068115234,
+    3.487499952316284,
+    3.4983999729156494,
+    3.5081000328063965,
+    3.5164999961853027,
+    3.523699998855591,
+    3.5297000408172607,
+    3.534600019454956,
+    3.538300037384033,
+    3.540800094604492,
+    3.542099952697754,
+    3.54229998588562,
+    3.541100025177002,
+    3.538599967956543,
+    3.5348000526428223,
+    3.529400110244751,
+    3.52239990234375,
+    3.5137999057769775,
+    3.503499984741211,
+    3.491499900817871,
+    3.4776999950408936,
+    3.4623000621795654,
+    3.44569993019104,
+    3.416599988937378,
+    3.402600049972534,
+    3.3896000385284424,
+    3.3773000240325928,
+    3.365999937057495,
+    3.3557000160217285,
+    3.346400022506714,
+    3.338099956512451,
+    3.330699920654297,
+    3.324199914932251,
+    3.3185999393463135,
+    3.3138999938964844,
+    3.309799909591675,
+    3.30649995803833,
+    3.303499937057495,
+    3.301300048828125,
+    3.2997000217437744,
+    3.2988998889923096,
+    3.298799991607666,
+    3.299499988555908,
+    3.3008999824523926,
+    3.3032000064849854,
+    3.306299924850464,
+    3.3104000091552734,
+    3.315500020980835,
+    3.3215999603271484,
+    3.3287999629974365,
+    3.3371999263763428,
+    3.3469998836517334,
+    3.3582000732421875,
+    3.3705999851226807,
+    3.384000062942505,
+    3.398400068283081,
+    3.4137001037597656
+  ],
+  "predictions": {
+    "-OQ7ELS-6RqMhwAdxX7F": {
+      "actual": 0.09768,
+      "predicted": 3.4319000244140625,
+      "time": "2025-05-13 11:33:10.133219"
+    },
+    "-OQ7E_9PT9BZGAhYFAc6": {
+      "actual": 0.09768,
+      "predicted": 3.4316000938415527,
+      "time": "2025-05-13 11:34:10.295233"
+    }
+  },
+  "solar_data": {
+    "1747041782": {
+      "humidity": 51.1,
+      "lux": 1320.83325,
+      "readable_time": "2025-05-12 14:53:02",
+      "solar_voltage": 2.33211,
+      "temperature": 31.9
+    },
+    "1747041844": {
+      "humidity": 50.8,
+      "lux": 1300.83325,
+      "readable_time": "2025-05-12 14:54:04",
+      "solar_voltage": 2.35653,
+      "temperature": 32
+    },
+    "1747041908": {
+      "humidity": 50.8,
+      "lux": 1258.33325,
+      "readable_time": "2025-05-12 14:55:08",
+      "solar_voltage": 2.33211,
+      "temperature": 32
+    },
+    "1747041971": {
+      "humidity": 51.3,
+      "lux": 1299.16663,
+      "readable_time": "2025-05-12 14:56:11",
+      "solar_voltage": 2.36874,
+      "temperature": 32.1
+    },
+    "1747042033": {
+      "humidity": 51.3,
+      "lux": 1259.16663,
+      "readable_time": "2025-05-12 14:57:13",
+      "solar_voltage": 2.32601,
+      "temperature": 32.1
+    },
+    "1747042097": {
+      "humidity": 51,
+      "lux": 1214.16663,
+      "readable_time": "2025-05-12 14:58:17",
+      "solar_voltage": 2.30769,
+      "temperature": 32.3
+    },
+    "1747042160": {
+      "humidity": 51.1,
+      "lux": 54612.49609,
+      "readable_time": "2025-05-12 14:59:20",
+      "solar_voltage": 4.20024,
+      "temperature": 32.3
+    },
+    "1747042227": {
+      "humidity": 51.5,
+      "lux": 8560.83301,
+      "readable_time": "2025-05-12 15:00:27",
+      "solar_voltage": 2.86325
+    },
+    "1747042401": {
+      "humidity": 47.7,
+      "lux": 25425.83203,
+      "readable_time": "2025-05-12 15:03:21",
+      "solar_voltage": 3.59585,
+      "temperature": 33.5
+    },
+    "1747042548": {
+      "humidity": 45.5,
+      "lux": 5433.33301,
+      "readable_time": "2025-05-12 15:05:48",
+      "solar_voltage": 2.52747,
+      "temperature": 34.6
+    },
+    "1747042613": {
+      "humidity": 43.9,
+      "lux": 5593.33301,
+      "readable_time": "2025-05-12 15:06:53",
+      "solar_voltage": 2.558,
+      "temperature": 35
+    },
+    "1747042681": {
+      "humidity": 45,
+      "lux": 9371.66602,
+      "solar_voltage": 2.96703,
+      "temperature": 34.6
+    },
+    "1747042758": {
+      "humidity": 45.1,
+      "lux": 37718.33203,
+      "readable_time": "2025-05-12 15:09:18",
+      "solar_voltage": 4.1453,
+      "temperature": 34.7
+    },
+    "1747042834": {
+      "humidity": 44.4,
+      "lux": -1,
+      "readable_time": "2025-05-12 15:10:34",
+      "solar_voltage": 4.01709,
+      "temperature": 35.4
+    },
+    "1747042905": {
+      "humidity": 42.4,
+      "lux": -1,
+      "readable_time": "2025-05-12 15:11:45",
+      "solar_voltage": 2.18559,
+      "temperature": 37
+    },
+    "1747043078": {
+      "humidity": 43.4,
+      "lux": 1.66667,
+      "temperature": 35.3
+    },
+    "1747044813": {
+      "humidity": 47.1,
+      "lux": 1111.66663,
+      "readable_time": "2025-05-12 15:43:33",
+      "solar_voltage": 1.91697,
+      "temperature": 33.6
+    },
+    "1747044892": {
+      "humidity": 47.3,
+      "lux": 2043.33325,
+      "readable_time": "2025-05-12 15:44:52",
+      "solar_voltage": 2.52747,
+      "temperature": 33.5
+    },
+    "1747044958": {
+      "humidity": 47.3,
+      "lux": 1994.16663,
+      "readable_time": "2025-05-12 15:45:58",
+      "solar_voltage": 2.48474,
+      "temperature": 33.5
+    },
+    "1747045025": {
+      "humidity": 46,
+      "lux": 1990.83325,
+      "readable_time": "2025-05-12 15:47:05",
+      "solar_voltage": 2.47863,
+      "temperature": 33.4
+    },
+    "1747045092": {
+      "humidity": 46.1,
+      "lux": 2056.6665,
+      "readable_time": "2025-05-12 15:48:12",
+      "solar_voltage": 2.53968,
+      "temperature": 33.5
+    },
+    "1747045164": {
+      "humidity": 46.6,
+      "lux": 2128.33325,
+      "readable_time": "2025-05-12 15:49:24",
+      "solar_voltage": 2.54579,
+      "temperature": 33.6
+    },
+    "1747045232": {
+      "humidity": 46.8,
+      "lux": 2024.99988,
+      "solar_voltage": 2.53358,
+      "temperature": 33.7
+    },
+    "1747045306": {
+      "humidity": 46.6,
+      "lux": 1986.66663,
+      "readable_time": "2025-05-12 15:51:46",
+      "solar_voltage": 2.50305,
+      "temperature": 33.7
+    },
+    "1747045374": {
+      "humidity": 46.2,
+      "lux": 1970.83325,
+      "readable_time": "2025-05-12 15:52:54",
+      "solar_voltage": 2.49695
+    },
+    "1747045452": {
+      "humidity": 46.5,
+      "lux": 2027.49988,
+      "readable_time": "2025-05-12 15:54:12",
+      "solar_voltage": 2.50916,
+      "temperature": 33.6
+    },
+    "1747045521": {
+      "humidity": 47.5,
+      "lux": 2125.83325,
+      "readable_time": "2025-05-12 15:55:21",
+      "solar_voltage": 2.52137,
+      "temperature": 33.6
+    },
+    "1747045595": {
+      "humidity": 48.1,
+      "lux": 2128.33325,
+      "readable_time": "2025-05-12 15:56:35",
+      "solar_voltage": 2.52747,
+      "temperature": 33.6
+    },
+    "1747045661": {
+      "humidity": 47.8,
+      "lux": 2080,
+      "readable_time": "2025-05-12 15:57:41",
+      "solar_voltage": 2.52137,
+      "temperature": 33.5
+    },
+    "1747045726": {
+      "humidity": 47.8,
+      "lux": 2032.49988,
+      "readable_time": "2025-05-12 15:58:46",
+      "solar_voltage": 2.50916,
+      "temperature": 33.5
+    },
+    "1747045793": {
+      "humidity": 48.3,
+      "lux": 1990.83325,
+      "readable_time": "2025-05-12 15:59:53",
+      "solar_voltage": 2.46642,
+      "temperature": 33.5
+    },
+    "1747045856": {
+      "humidity": 50.1,
+      "lux": 1947.49988,
+      "readable_time": "2025-05-12 16:00:56",
+      "solar_voltage": 2.48474,
+      "temperature": 33.6
+    },
+    "1747045919": {
+      "humidity": 49.8,
+      "lux": 1973.33325,
+      "readable_time": "2025-05-12 16:01:59",
+      "solar_voltage": 2.50916,
+      "temperature": 33.6
+    },
+    "1747045983": {
+      "humidity": 50.1,
+      "lux": 2019.16663,
+      "readable_time": "2025-05-12 16:03:03",
+      "solar_voltage": 2.52747,
+      "temperature": 33.4
+    },
+    "1747046047": {
+      "humidity": 50.4,
+      "lux": 2993.33325,
+      "readable_time": "2025-05-12 16:04:07",
+      "solar_voltage": 2.83272,
+      "temperature": 33.2
+    },
+    "1747046111": {
+      "humidity": 49.9,
+      "lux": 2520.83325,
+      "readable_time": "2025-05-12 16:05:11",
+      "solar_voltage": 2.71673,
+      "temperature": 32.9
+    },
+    "1747046175": {
+      "humidity": 50.3,
+      "lux": 2265,
+      "readable_time": "2025-05-12 16:06:15",
+      "solar_voltage": 2.63736,
+      "temperature": 32.9
+    },
+    "1747046239": {
+      "humidity": 51.1,
+      "lux": 2259.1665,
+      "readable_time": "2025-05-12 16:07:19",
+      "solar_voltage": 2.59463,
+      "temperature": 32.9
+    },
+    "1747046302": {
+      "humidity": 51.9,
+      "lux": 2350,
+      "readable_time": "2025-05-12 16:08:22",
+      "solar_voltage": 2.62515,
+      "temperature": 32.9
+    },
+    "1747046366": {
+      "humidity": 50.7,
+      "lux": 2466.6665,
+      "readable_time": "2025-05-12 16:09:26",
+      "solar_voltage": 2.63736,
+      "temperature": 32.9
+    },
+    "1747046429": {
+      "humidity": 50,
+      "lux": 2604.1665,
+      "readable_time": "2025-05-12 16:10:29",
+      "solar_voltage": 2.66178,
+      "temperature": 32.9
+    },
+    "1747046494": {
+      "humidity": 49.9,
+      "lux": 2915,
+      "readable_time": "2025-05-12 16:11:34",
+      "solar_voltage": 2.76557,
+      "temperature": 32.9
+    },
+    "1747046558": {
+      "humidity": 49.8,
+      "lux": 3015,
+      "readable_time": "2025-05-12 16:12:38",
+      "solar_voltage": 2.8022,
+      "temperature": 32.9
+    },
+    "1747046621": {
+      "humidity": 49.9,
+      "lux": 2463.33325,
+      "readable_time": "2025-05-12 16:13:41",
+      "solar_voltage": 2.67399,
+      "temperature": 32.9
+    },
+    "1747046684": {
+      "humidity": 49.3,
+      "lux": 2244.1665,
+      "readable_time": "2025-05-12 16:14:44",
+      "solar_voltage": 2.60684,
+      "temperature": 32.9
+    },
+    "1747046748": {
+      "humidity": 50.3,
+      "lux": 2165,
+      "readable_time": "2025-05-12 16:15:48",
+      "solar_voltage": 2.55189,
+      "temperature": 33
+    },
+    "1747046813": {
+      "humidity": 49.7,
+      "lux": 2057.5,
+      "readable_time": "2025-05-12 16:16:53",
+      "solar_voltage": 2.558,
+      "temperature": 33.1
+    },
+    "1747046878": {
+      "humidity": 49.9,
+      "lux": 2011.66663,
+      "readable_time": "2025-05-12 16:17:58",
+      "solar_voltage": 2.54579,
+      "temperature": 33.1
+    },
+    "1747046943": {
+      "humidity": 50.1,
+      "lux": 2130.83325,
+      "readable_time": "2025-05-12 16:19:03",
+      "solar_voltage": 2.53968,
+      "temperature": 33.1
+    },
+    "1747047007": {
+      "humidity": 49.6,
+      "lux": 2428.33325,
+      "readable_time": "2025-05-12 16:20:07",
+      "solar_voltage": 2.61905,
+      "temperature": 33.1
+    },
+    "1747047071": {
+      "humidity": 48.2,
+      "lux": 2535.83325,
+      "readable_time": "2025-05-12 16:21:11",
+      "solar_voltage": 2.63736,
+      "temperature": 33.1
+    },
+    "1747047139": {
+      "humidity": 48.1,
+      "lux": 2441.6665,
+      "readable_time": "2025-05-12 16:22:19",
+      "solar_voltage": 2.60073,
+      "temperature": 33.1
+    },
+    "1747047202": {
+      "humidity": 49.5,
+      "lux": 2401.6665,
+      "readable_time": "2025-05-12 16:23:22",
+      "solar_voltage": 2.60684,
+      "temperature": 33.2
+    },
+    "1747047266": {
+      "humidity": 51.4,
+      "lux": 2462.5,
+      "readable_time": "2025-05-12 16:24:26",
+      "solar_voltage": 2.60073,
+      "temperature": 33.2
+    },
+    "1747047333": {
+      "humidity": 52.4,
+      "lux": 2294.1665,
+      "readable_time": "2025-05-12 16:25:33",
+      "solar_voltage": 2.57021,
+      "temperature": 33.3
+    },
+    "1747047398": {
+      "humidity": 51.3,
+      "lux": 2752.5,
+      "readable_time": "2025-05-12 16:26:38",
+      "solar_voltage": 2.77167,
+      "temperature": 33.2
+    },
+    "1747047461": {
+      "humidity": 53.9,
+      "lux": 2905.83325,
+      "readable_time": "2025-05-12 16:27:41",
+      "solar_voltage": 2.83272,
+      "temperature": 33.2
+    },
+    "1747047526": {
+      "humidity": 51.9,
+      "lux": 2987.5,
+      "readable_time": "2025-05-12 16:28:46",
+      "solar_voltage": 2.86325,
+      "temperature": 33.3
+    },
+    "1747047589": {
+      "humidity": 50.1,
+      "lux": 2582.5,
+      "readable_time": "2025-05-12 16:29:49",
+      "solar_voltage": 2.6801,
+      "temperature": 33.4
+    },
+    "1747047654": {
+      "humidity": 50,
+      "lux": 2815,
+      "readable_time": "2025-05-12 16:30:54",
+      "solar_voltage": 2.73504,
+      "temperature": 33.5
+    },
+    "1747047718": {
+      "humidity": 50,
+      "lux": 2949.1665,
+      "readable_time": "2025-05-12 16:31:58",
+      "solar_voltage": 2.75336,
+      "temperature": 33.6
+    },
+    "1747047782": {
+      "humidity": 51.1,
+      "lux": 3254.1665,
+      "readable_time": "2025-05-12 16:33:02",
+      "solar_voltage": 2.8083,
+      "temperature": 33.6
+    },
+    "1747047845": {
+      "humidity": 53.9,
+      "lux": 3466.6665,
+      "readable_time": "2025-05-12 16:34:05",
+      "solar_voltage": 2.83272,
+      "temperature": 33.7
+    },
+    "1747047910": {
+      "humidity": 55.8,
+      "lux": 4050.83325,
+      "readable_time": "2025-05-12 16:35:10",
+      "solar_voltage": 3.00977,
+      "temperature": 33.8
+    },
+    "1747047974": {
+      "humidity": 55.8,
+      "lux": 3871.6665,
+      "readable_time": "2025-05-12 16:36:14",
+      "solar_voltage": 2.93651,
+      "temperature": 33.8
+    },
+    "1747048038": {
+      "humidity": 57.1,
+      "lux": 3492.49976,
+      "readable_time": "2025-05-12 16:37:18",
+      "solar_voltage": 2.91819,
+      "temperature": 33.9
+    },
+    "1747048104": {
+      "humidity": 58.2,
+      "lux": 2519.1665,
+      "readable_time": "2025-05-12 16:38:24",
+      "solar_voltage": 2.69841,
+      "temperature": 34
+    },
+    "1747048169": {
+      "humidity": 56.9,
+      "lux": 2190,
+      "readable_time": "2025-05-12 16:39:29",
+      "solar_voltage": 2.60073,
+      "temperature": 33.9
+    },
+    "1747049190": {
+      "humidity": 48.7,
+      "lux": 34.16666,
+      "readable_time": "2025-05-12 16:56:30",
+      "solar_voltage": 0.17705,
+      "temperature": 34.2
+    },
+    "1747049263": {
+      "humidity": 50.5,
+      "lux": 2588.33325,
+      "readable_time": "2025-05-12 16:57:43",
+      "solar_voltage": 2.94872,
+      "temperature": 33.7
+    },
+    "1747049328": {
+      "humidity": 51,
+      "lux": 3864.1665,
+      "readable_time": "2025-05-12 16:58:48",
+      "solar_voltage": 2.86325,
+      "temperature": 33.6
+    },
+    "1747049390": {
+      "humidity": 50.1,
+      "lux": 3710.83325,
+      "readable_time": "2025-05-12 16:59:50",
+      "solar_voltage": 2.83883,
+      "temperature": 33.5
+    },
+    "1747049453": {
+      "humidity": 50,
+      "lux": 3588.33325,
+      "readable_time": "2025-05-12 17:00:53",
+      "solar_voltage": 2.83272,
+      "temperature": 33.6
+    },
+    "1747049518": {
+      "humidity": 49.7,
+      "lux": 3519.99976,
+      "readable_time": "2025-05-12 17:01:58",
+      "solar_voltage": 2.82662,
+      "temperature": 33.6
+    },
+    "1747049582": {
+      "humidity": 50,
+      "lux": 3721.6665,
+      "readable_time": "2025-05-12 17:03:02",
+      "solar_voltage": 2.94261,
+      "temperature": 33.6
+    },
+    "1747049650": {
+      "humidity": 50.3,
+      "lux": 3560.83325,
+      "readable_time": "2025-05-12 17:04:10",
+      "solar_voltage": 2.87546,
+      "temperature": 33.6
+    },
+    "1747049714": {
+      "humidity": 49.5,
+      "lux": 3330.83325,
+      "readable_time": "2025-05-12 17:05:14",
+      "solar_voltage": 2.82662,
+      "temperature": 33.7
+    },
+    "1747049777": {
+      "humidity": 49.6,
+      "lux": 3219.1665,
+      "readable_time": "2025-05-12 17:06:17",
+      "solar_voltage": 2.81441,
+      "temperature": 33.8
+    },
+    "1747049840": {
+      "humidity": 49.7,
+      "lux": 3094.99976,
+      "readable_time": "2025-05-12 17:07:20",
+      "solar_voltage": 2.74725,
+      "temperature": 33.8
+    },
+    "1747049904": {
+      "humidity": 49.4,
+      "lux": 3061.6665,
+      "readable_time": "2025-05-12 17:08:24",
+      "solar_voltage": 2.73504,
+      "temperature": 33.7
+    },
+    "1747049966": {
+      "humidity": 49.6,
+      "lux": 2894.1665,
+      "readable_time": "2025-05-12 17:09:26",
+      "solar_voltage": 2.67399,
+      "temperature": 33.7
+    },
+    "1747050029": {
+      "humidity": 49.1,
+      "lux": 2660.83325,
+      "readable_time": "2025-05-12 17:10:29",
+      "solar_voltage": 2.63736,
+      "temperature": 33.5
+    },
+    "1747050092": {
+      "humidity": 49,
+      "lux": 2428.33325,
+      "readable_time": "2025-05-12 17:11:32",
+      "solar_voltage": 2.59463,
+      "temperature": 33.4
+    },
+    "1747050156": {
+      "humidity": 49.2,
+      "lux": 2126.6665,
+      "readable_time": "2025-05-12 17:12:36",
+      "solar_voltage": 2.50916,
+      "temperature": 33.3
+    },
+    "1747050218": {
+      "humidity": 49.9,
+      "lux": 1746.66663,
+      "readable_time": "2025-05-12 17:13:38",
+      "solar_voltage": 2.38095,
+      "temperature": 33.3
+    },
+    "1747050291": {
+      "humidity": 49.9,
+      "lux": 1388.33325,
+      "readable_time": "2025-05-12 17:14:51",
+      "solar_voltage": 2.24664,
+      "temperature": 33.2
+    },
+    "1747050354": {
+      "humidity": 49.8,
+      "lux": 1197.5,
+      "readable_time": "2025-05-12 17:15:54",
+      "solar_voltage": 2.16728
+    },
+    "1747050419": {
+      "humidity": 50.6,
+      "lux": 1056.66663,
+      "readable_time": "2025-05-12 17:16:59",
+      "solar_voltage": 2.12454,
+      "temperature": 33.1
+    },
+    "1747050483": {
+      "humidity": 51.2,
+      "lux": 988.33331,
+      "readable_time": "2025-05-12 17:18:03",
+      "solar_voltage": 2.05128,
+      "temperature": 33
+    },
+    "1747050546": {
+      "humidity": 49.9,
+      "lux": 989.99994,
+      "readable_time": "2025-05-12 17:19:06",
+      "solar_voltage": 2.05128,
+      "temperature": 33
+    },
+    "1747050609": {
+      "humidity": 50.3,
+      "lux": 1001.66663,
+      "readable_time": "2025-05-12 17:20:09",
+      "solar_voltage": 2.05128,
+      "temperature": 33
+    },
+    "1747050673": {
+      "humidity": 50.1,
+      "lux": 996.66663,
+      "readable_time": "2025-05-12 17:21:13",
+      "solar_voltage": 2.03907,
+      "temperature": 33
+    },
+    "1747050735": {
+      "humidity": 50.3,
+      "lux": 982.49994,
+      "readable_time": "2025-05-12 17:22:15",
+      "solar_voltage": 2.01465,
+      "temperature": 33
+    },
+    "1747050797": {
+      "humidity": 50.4,
+      "lux": 1011.66663,
+      "readable_time": "2025-05-12 17:23:17",
+      "solar_voltage": 1.99023,
+      "temperature": 33
+    },
+    "1747050861": {
+      "humidity": 50.4,
+      "lux": 1054.16663,
+      "readable_time": "2025-05-12 17:24:21",
+      "solar_voltage": 2.02076,
+      "temperature": 32.9
+    },
+    "1747050923": {
+      "humidity": 51.2,
+      "lux": 1080.83325,
+      "readable_time": "2025-05-12 17:25:23",
+      "solar_voltage": 2.03297,
+      "temperature": 32.9
+    },
+    "1747050985": {
+      "humidity": 52.1,
+      "lux": 1028.33325,
+      "readable_time": "2025-05-12 17:26:25",
+      "solar_voltage": 1.97192,
+      "temperature": 32.7
+    },
+    "1747051049": {
+      "humidity": 52.9,
+      "lux": 942.49994,
+      "readable_time": "2025-05-12 17:27:29",
+      "solar_voltage": 1.9536,
+      "temperature": 32.6
+    },
+    "1747051112": {
+      "humidity": 54,
+      "lux": 844.16663,
+      "readable_time": "2025-05-12 17:28:32",
+      "solar_voltage": 1.88645,
+      "temperature": 32.5
+    },
+    "1747051174": {
+      "humidity": 55.6,
+      "lux": 125.83333,
+      "readable_time": "2025-05-12 17:29:34",
+      "solar_voltage": 1.36752,
+      "temperature": 32.3
+    },
+    "1747051239": {
+      "humidity": 55.6,
+      "lux": 110.83333,
+      "readable_time": "2025-05-12 17:30:39",
+      "solar_voltage": 1.26374,
+      "temperature": 32.1
+    },
+    "1747051301": {
+      "humidity": 57.3,
+      "lux": 97.49999,
+      "readable_time": "2025-05-12 17:31:41",
+      "solar_voltage": 1.15385,
+      "temperature": 31.9
+    },
+    "1747051363": {
+      "humidity": 57.9,
+      "lux": 90.83333,
+      "readable_time": "2025-05-12 17:32:43",
+      "solar_voltage": 1.08059,
+      "temperature": 31.8
+    },
+    "1747051427": {
+      "humidity": 58.5,
+      "lux": 86.66666,
+      "readable_time": "2025-05-12 17:33:47",
+      "solar_voltage": 1.07448,
+      "temperature": 31.8
+    },
+    "1747051489": {
+      "humidity": 58.9,
+      "lux": 85,
+      "readable_time": "2025-05-12 17:34:49",
+      "solar_voltage": 1.06838,
+      "temperature": 31.7
+    },
+    "1747051551": {
+      "humidity": 59.3,
+      "lux": 80,
+      "readable_time": "2025-05-12 17:35:51",
+      "solar_voltage": 1.00733,
+      "temperature": 31.6
+    },
+    "1747051615": {
+      "humidity": 60.2,
+      "lux": 71.66666,
+      "readable_time": "2025-05-12 17:36:55",
+      "solar_voltage": 0.92186,
+      "temperature": 31.6
+    },
+    "1747051677": {
+      "humidity": 60.6,
+      "lux": 65.83333,
+      "readable_time": "2025-05-12 17:37:57",
+      "solar_voltage": 0.86691,
+      "temperature": 31.4
+    },
+    "1747051740": {
+      "humidity": 61,
+      "lux": 61.66666,
+      "readable_time": "2025-05-12 17:39:00",
+      "solar_voltage": 0.79976,
+      "temperature": 31.4
+    },
+    "1747051803": {
+      "humidity": 62,
+      "lux": 55.83333,
+      "readable_time": "2025-05-12 17:40:03",
+      "solar_voltage": 0.7265,
+      "temperature": 31.3
+    },
+    "1747051865": {
+      "humidity": 61.9,
+      "lux": 51.66666,
+      "readable_time": "2025-05-12 17:41:05",
+      "solar_voltage": 0.68376,
+      "temperature": 31.3
+    },
+    "1747051927": {
+      "humidity": 62.6,
+      "lux": 48.33333,
+      "readable_time": "2025-05-12 17:42:07",
+      "solar_voltage": 0.65324,
+      "temperature": 31.2
+    },
+    "1747051990": {
+      "humidity": 63.2,
+      "lux": 45,
+      "readable_time": "2025-05-12 17:43:10",
+      "solar_voltage": 0.57998,
+      "temperature": 31.1
+    },
+    "1747052052": {
+      "humidity": 63.2,
+      "lux": 43.33333,
+      "readable_time": "2025-05-12 17:44:12",
+      "solar_voltage": 0.54335,
+      "temperature": 31.1
+    },
+    "1747052115": {
+      "humidity": 63.2,
+      "lux": 40.83333,
+      "readable_time": "2025-05-12 17:45:15",
+      "solar_voltage": 0.49451,
+      "temperature": 31.1
+    },
+    "1747052178": {
+      "humidity": 63.7,
+      "lux": 37.5,
+      "readable_time": "2025-05-12 17:46:18",
+      "solar_voltage": 0.45177,
+      "temperature": 31
+    },
+    "1747052240": {
+      "humidity": 64,
+      "lux": 37.5,
+      "readable_time": "2025-05-12 17:47:20",
+      "solar_voltage": 0.47009,
+      "temperature": 31
+    },
+    "1747052302": {
+      "humidity": 64.4,
+      "lux": 35,
+      "readable_time": "2025-05-12 17:48:22",
+      "solar_voltage": 0.40293,
+      "temperature": 30.9
+    },
+    "1747052365": {
+      "humidity": 64.4,
+      "lux": 29.16667,
+      "readable_time": "2025-05-12 17:49:25",
+      "solar_voltage": 0.27473,
+      "temperature": 30.9
+    },
+    "1747052428": {
+      "humidity": 64.7,
+      "lux": 25,
+      "readable_time": "2025-05-12 17:50:28",
+      "solar_voltage": 0.16484,
+      "temperature": 30.9
+    },
+    "1747052490": {
+      "humidity": 64.8,
+      "lux": 23.33333,
+      "readable_time": "2025-05-12 17:51:30",
+      "solar_voltage": 0.10379,
+      "temperature": 30.8
+    },
+    "1747052554": {
+      "humidity": 65.2,
+      "lux": 20,
+      "readable_time": "2025-05-12 17:52:34",
+      "solar_voltage": 0.03053,
+      "temperature": 30.9
+    },
+    "1747100655": {
+      "humidity": 80.7,
+      "lux": -2,
+      "readable_time": "2025-05-13 07:14:15",
+      "solar_voltage": 2.05128,
+      "temperature": 27.3
+    },
+    "1747100718": {
+      "humidity": 80.8,
+      "lux": -2,
+      "readable_time": "2025-05-13 07:15:18",
+      "solar_voltage": 2.05128,
+      "temperature": 27.3
+    },
+    "1747100782": {
+      "humidity": 84.5,
+      "lux": -2,
+      "readable_time": "2025-05-13 07:16:22",
+      "solar_voltage": 2.05128,
+      "temperature": 27.3
+    },
+    "1747100845": {
+      "humidity": 81.7,
+      "lux": -2,
+      "readable_time": "2025-05-13 07:17:25",
+      "solar_voltage": 2.06349,
+      "temperature": 27.5
+    },
+    "1747100953": {
+      "humidity": 83.3,
+      "lux": 522.5,
+      "readable_time": "2025-05-13 07:19:13",
+      "solar_voltage": 2.03907,
+      "temperature": 27.7
+    },
+    "1747101024": {
+      "humidity": 82.5,
+      "lux": 584.16663,
+      "readable_time": "2025-05-13 07:20:24",
+      "solar_voltage": 2.16117,
+      "temperature": 27.8
+    },
+    "1747101090": {
+      "humidity": 79.2,
+      "lux": 616.66663,
+      "readable_time": "2025-05-13 07:21:30",
+      "solar_voltage": 2.23443,
+      "temperature": 27.8
+    },
+    "1747101155": {
+      "humidity": 79.1,
+      "lux": 696.66663,
+      "readable_time": "2025-05-13 07:22:35",
+      "solar_voltage": 2.30769,
+      "temperature": 27.7
+    },
+    "1747101219": {
+      "humidity": 79.6,
+      "lux": 766.66663,
+      "readable_time": "2025-05-13 07:23:39",
+      "solar_voltage": 2.37485,
+      "temperature": 27.7
+    },
+    "1747101282": {
+      "humidity": 79.9,
+      "lux": 1445.83325,
+      "readable_time": "2025-05-13 07:24:42",
+      "solar_voltage": 2.94872,
+      "temperature": 27.6
+    },
+    "1747101347": {
+      "humidity": 80.1,
+      "lux": 812.49994,
+      "readable_time": "2025-05-13 07:25:47",
+      "solar_voltage": 2.442,
+      "temperature": 27.5
+    },
+    "1747101416": {
+      "humidity": 80.1,
+      "lux": 923.33331,
+      "readable_time": "2025-05-13 07:26:56",
+      "solar_voltage": 2.51526,
+      "temperature": 27.6
+    },
+    "1747101481": {
+      "humidity": 79.8,
+      "lux": 2120.83325,
+      "readable_time": "2025-05-13 07:28:01",
+      "solar_voltage": 3.2967,
+      "temperature": 27.6
+    },
+    "1747101545": {
+      "humidity": 79.4,
+      "lux": 1925.83325,
+      "readable_time": "2025-05-13 07:29:05",
+      "solar_voltage": 3.11355,
+      "temperature": 27.8
+    },
+    "1747101609": {
+      "humidity": 78.4,
+      "lux": 2592.5,
+      "readable_time": "2025-05-13 07:30:09",
+      "solar_voltage": 3.4188,
+      "temperature": 28.1
+    },
+    "1747101672": {
+      "humidity": 77.5,
+      "lux": 2245,
+      "readable_time": "2025-05-13 07:31:12",
+      "solar_voltage": 3.24176,
+      "temperature": 28.5
+    },
+    "1747101735": {
+      "humidity": 76.6,
+      "lux": 2297.5,
+      "readable_time": "2025-05-13 07:32:15",
+      "solar_voltage": 3.26007,
+      "temperature": 28.8
+    },
+    "1747101798": {
+      "humidity": 75.8,
+      "lux": 1728.33325,
+      "readable_time": "2025-05-13 07:33:18",
+      "solar_voltage": 2.94872,
+      "temperature": 29.1
+    },
+    "1747101861": {
+      "humidity": 75.4,
+      "lux": 1519.16663,
+      "readable_time": "2025-05-13 07:34:21",
+      "solar_voltage": 2.83272,
+      "temperature": 29.2
+    },
+    "1747101923": {
+      "humidity": 74.5,
+      "lux": 1231.66663,
+      "readable_time": "2025-05-13 07:35:23",
+      "solar_voltage": 2.53358,
+      "temperature": 29.4
+    },
+    "1747101987": {
+      "humidity": 73.5,
+      "lux": 1510,
+      "readable_time": "2025-05-13 07:36:27",
+      "solar_voltage": 2.75336,
+      "temperature": 29.5
+    },
+    "1747102050": {
+      "humidity": 73.7,
+      "lux": 1751.66663,
+      "readable_time": "2025-05-13 07:37:30",
+      "solar_voltage": 2.96093,
+      "temperature": 29.3
+    },
+    "1747102112": {
+      "humidity": 74.3,
+      "lux": 2734.1665,
+      "readable_time": "2025-05-13 07:38:32",
+      "solar_voltage": 3.40659,
+      "temperature": 29.2
+    },
+    "1747102176": {
+      "humidity": 74.2,
+      "lux": 2832.5,
+      "readable_time": "2025-05-13 07:39:36",
+      "solar_voltage": 3.42491,
+      "temperature": 29.2
+    },
+    "1747102240": {
+      "humidity": 74.4,
+      "lux": 2303.33325,
+      "readable_time": "2025-05-13 07:40:40",
+      "solar_voltage": 3.21734,
+      "temperature": 29.4
+    },
+    "1747102605": {
+      "solar_voltage": 3.48596
+    },
+    "1747102918": {
+      "humidity": 68.3,
+      "lux": 3347.49976,
+      "readable_time": "2025-05-13 07:51:58",
+      "solar_voltage": 3.47985,
+      "temperature": 31
+    },
+    "1747103089": {
+      "humidity": 67.3,
+      "lux": 3502.49976,
+      "readable_time": "2025-05-13 07:54:49",
+      "solar_voltage": 3.57753,
+      "temperature": 31.1
+    },
+    "1747103166": {
+      "temperature": 31.4
+    },
+    "1747103247": {
+      "humidity": 66.2,
+      "lux": 3438.33325,
+      "readable_time": "2025-05-13 07:57:27",
+      "solar_voltage": 3.57143
+    },
+    "1747103535": {
+      "humidity": 66.7,
+      "lux": 4195.83301,
+      "temperature": 31.3
+    },
+    "1747103545": {
+      "humidity": 66.5,
+      "lux": 4295,
+      "readable_time": "2025-05-13 08:02:25",
+      "solar_voltage": 3.61416,
+      "temperature": 31.4
+    },
+    "1747103609": {
+      "humidity": 66.1,
+      "lux": 4787.5,
+      "readable_time": "2025-05-13 08:03:29",
+      "solar_voltage": 3.6569,
+      "temperature": 31.5
+    },
+    "1747103772": {
+      "humidity": 65,
+      "lux": 4370,
+      "readable_time": "2025-05-13 08:06:12",
+      "solar_voltage": 3.33944,
+      "temperature": 31.8
+    },
+    "1747103835": {
+      "humidity": 65.6,
+      "lux": 4272.5,
+      "readable_time": "2025-05-13 08:07:15",
+      "solar_voltage": 3.62637,
+      "temperature": 31.8
+    },
+    "1747103897": {
+      "humidity": 64.3,
+      "lux": 4353.33301,
+      "readable_time": "2025-05-13 08:08:17",
+      "solar_voltage": 3.58364,
+      "temperature": 32.1
+    },
+    "1747103959": {
+      "humidity": 63.8,
+      "lux": 4394.1665,
+      "readable_time": "2025-05-13 08:09:19",
+      "solar_voltage": 3.61416,
+      "temperature": 32.4
+    },
+    "1747104022": {
+      "humidity": 63,
+      "lux": 4510,
+      "readable_time": "2025-05-13 08:10:22",
+      "solar_voltage": 3.57753,
+      "temperature": 32.6
+    },
+    "1747104084": {
+      "humidity": 62.8,
+      "lux": 4509.1665,
+      "readable_time": "2025-05-13 08:11:24",
+      "solar_voltage": 3.61416,
+      "temperature": 32.6
+    },
+    "1747104146": {
+      "humidity": 62.8,
+      "lux": 4599.1665,
+      "readable_time": "2025-05-13 08:12:26",
+      "solar_voltage": 3.61416,
+      "temperature": 32.7
+    },
+    "1747104209": {
+      "humidity": 62.1,
+      "lux": 4695,
+      "readable_time": "2025-05-13 08:13:29",
+      "solar_voltage": 3.62027,
+      "temperature": 32.9
+    },
+    "1747104272": {
+      "humidity": 62.4,
+      "lux": 4730,
+      "readable_time": "2025-05-13 08:14:32",
+      "solar_voltage": 3.61416,
+      "temperature": 32.7
+    },
+    "1747104334": {
+      "humidity": 62.1,
+      "lux": 5057.5,
+      "readable_time": "2025-05-13 08:15:34",
+      "solar_voltage": 3.61416,
+      "temperature": 32.9
+    },
+    "1747104397": {
+      "humidity": 61,
+      "lux": 5240.83301,
+      "readable_time": "2025-05-13 08:16:37",
+      "solar_voltage": 3.6569,
+      "temperature": 33.2
+    },
+    "1747104459": {
+      "humidity": 60.5,
+      "lux": 5429.1665,
+      "readable_time": "2025-05-13 08:17:39",
+      "solar_voltage": 3.663,
+      "temperature": 33.5
+    },
+    "1747104521": {
+      "humidity": 59.9,
+      "lux": 5410.83301,
+      "readable_time": "2025-05-13 08:18:41",
+      "solar_voltage": 3.63858,
+      "temperature": 33.7
+    },
+    "1747104584": {
+      "humidity": 58.9,
+      "lux": 5495,
+      "readable_time": "2025-05-13 08:19:44",
+      "solar_voltage": 3.6569,
+      "temperature": 34
+    },
+    "1747104646": {
+      "humidity": 58.2,
+      "lux": 5377.5,
+      "readable_time": "2025-05-13 08:20:46",
+      "solar_voltage": 3.65079,
+      "temperature": 34.2
+    },
+    "1747104708": {
+      "humidity": 57.7,
+      "lux": 5615,
+      "readable_time": "2025-05-13 08:21:48",
+      "solar_voltage": 3.65079,
+      "temperature": 34.4
+    },
+    "1747104771": {
+      "humidity": 57.4,
+      "lux": 5455,
+      "readable_time": "2025-05-13 08:22:51",
+      "solar_voltage": 3.69963,
+      "temperature": 34.4
+    },
+    "1747104833": {
+      "humidity": 57.4,
+      "lux": 5573.33301,
+      "readable_time": "2025-05-13 08:23:53",
+      "solar_voltage": 3.68132,
+      "temperature": 34.5
+    },
+    "1747104895": {
+      "humidity": 57.2,
+      "lux": 5392.5,
+      "readable_time": "2025-05-13 08:24:55",
+      "solar_voltage": 3.69963,
+      "temperature": 34.6
+    },
+    "1747104958": {
+      "humidity": 56.6,
+      "lux": 5552.5,
+      "readable_time": "2025-05-13 08:25:58",
+      "solar_voltage": 3.69353,
+      "temperature": 34.6
+    },
+    "1747105021": {
+      "humidity": 56.6,
+      "lux": 5716.6665,
+      "readable_time": "2025-05-13 08:27:01",
+      "solar_voltage": 3.74237,
+      "temperature": 34.6
+    },
+    "1747105083": {
+      "humidity": 56.2,
+      "lux": 5449.1665,
+      "readable_time": "2025-05-13 08:28:03",
+      "solar_voltage": 3.62027,
+      "temperature": 34.6
+    },
+    "1747105146": {
+      "humidity": 56.4,
+      "lux": 5336.6665,
+      "readable_time": "2025-05-13 08:29:06",
+      "solar_voltage": 3.61416,
+      "temperature": 34.6
+    },
+    "1747105208": {
+      "humidity": 56,
+      "lux": 4993.33301,
+      "readable_time": "2025-05-13 08:30:08",
+      "solar_voltage": 3.52259,
+      "temperature": 34.5
+    },
+    "1747105270": {
+      "humidity": 56.7,
+      "lux": 5755,
+      "readable_time": "2025-05-13 08:31:10",
+      "solar_voltage": 3.76679,
+      "temperature": 34.2
+    },
+    "1747105333": {
+      "humidity": 56.8,
+      "lux": 3525.83325,
+      "readable_time": "2025-05-13 08:32:13",
+      "solar_voltage": 3.09524,
+      "temperature": 34.3
+    },
+    "1747105395": {
+      "humidity": 56.6,
+      "lux": 3189.1665,
+      "readable_time": "2025-05-13 08:33:15",
+      "solar_voltage": 3.00366,
+      "temperature": 34.3
+    },
+    "1747105457": {
+      "humidity": 56.7,
+      "lux": 3183.33325,
+      "readable_time": "2025-05-13 08:34:17",
+      "solar_voltage": 3.02808,
+      "temperature": 34.1
+    },
+    "1747105520": {
+      "humidity": 57.5,
+      "lux": 3358.33325,
+      "readable_time": "2025-05-13 08:35:20",
+      "solar_voltage": 3.00977,
+      "temperature": 33.7
+    },
+    "1747105582": {
+      "humidity": 57.8,
+      "lux": 3812.49976,
+      "readable_time": "2025-05-13 08:36:22",
+      "solar_voltage": 3.21734,
+      "temperature": 33.5
+    },
+    "1747105644": {
+      "humidity": 58.1,
+      "lux": 3626.6665,
+      "readable_time": "2025-05-13 08:37:24",
+      "solar_voltage": 2.97314,
+      "temperature": 33.4
+    },
+    "1747105707": {
+      "humidity": 58.8,
+      "lux": 3819.1665,
+      "readable_time": "2025-05-13 08:38:27",
+      "solar_voltage": 3.05861,
+      "temperature": 33.2
+    },
+    "1747105769": {
+      "humidity": 59,
+      "lux": 4860,
+      "readable_time": "2025-05-13 08:39:29",
+      "solar_voltage": 3.49817,
+      "temperature": 33.1
+    },
+    "1747105831": {
+      "humidity": 59.6,
+      "lux": 5954.1665,
+      "readable_time": "2025-05-13 08:40:31",
+      "solar_voltage": 3.77289,
+      "temperature": 33
+    },
+    "1747105895": {
+      "humidity": 59.4,
+      "lux": 6822.49951,
+      "readable_time": "2025-05-13 08:41:35",
+      "solar_voltage": 3.85226,
+      "temperature": 33.1
+    },
+    "1747105957": {
+      "humidity": 59.3,
+      "lux": 6473.33301,
+      "readable_time": "2025-05-13 08:42:37",
+      "solar_voltage": 3.80952,
+      "temperature": 33.3
+    },
+    "1747106019": {
+      "humidity": 59.2,
+      "lux": 6498.33301,
+      "readable_time": "2025-05-13 08:43:39",
+      "solar_voltage": 3.80952,
+      "temperature": 33.6
+    },
+    "1747106082": {
+      "humidity": 57.5,
+      "lux": 6302.49951,
+      "readable_time": "2025-05-13 08:44:42",
+      "solar_voltage": 3.79121,
+      "temperature": 34
+    },
+    "1747106144": {
+      "humidity": 57,
+      "lux": 6294.99951,
+      "readable_time": "2025-05-13 08:45:44",
+      "solar_voltage": 3.80952,
+      "temperature": 34.5
+    },
+    "1747106206": {
+      "humidity": 55.6,
+      "lux": 6451.6665,
+      "readable_time": "2025-05-13 08:46:46",
+      "solar_voltage": 3.80952,
+      "temperature": 34.8
+    },
+    "1747106269": {
+      "humidity": 54.6,
+      "lux": 6436.6665,
+      "readable_time": "2025-05-13 08:47:49",
+      "solar_voltage": 3.79121,
+      "temperature": 35.1
+    },
+    "1747106331": {
+      "humidity": 54.3,
+      "lux": 6597.49951,
+      "readable_time": "2025-05-13 08:48:51",
+      "solar_voltage": 3.779,
+      "temperature": 35.3
+    },
+    "1747106393": {
+      "humidity": 53.2,
+      "lux": 6467.49951,
+      "readable_time": "2025-05-13 08:49:53",
+      "solar_voltage": 3.84615,
+      "temperature": 35.4
+    },
+    "1747106456": {
+      "humidity": 53.5,
+      "lux": 6398.33301,
+      "readable_time": "2025-05-13 08:50:56",
+      "solar_voltage": 3.79121,
+      "temperature": 35.3
+    },
+    "1747106519": {
+      "humidity": 53.3,
+      "lux": 6404.99951,
+      "readable_time": "2025-05-13 08:51:59",
+      "solar_voltage": 3.75458,
+      "temperature": 35.5
+    },
+    "1747106581": {
+      "humidity": 52.9,
+      "lux": 5118.33301,
+      "readable_time": "2025-05-13 08:53:01",
+      "solar_voltage": 3.51648,
+      "temperature": 35.7
+    },
+    "1747106644": {
+      "humidity": 53.2,
+      "lux": 6393.33301,
+      "readable_time": "2025-05-13 08:54:04",
+      "solar_voltage": 3.80952,
+      "temperature": 35.7
+    },
+    "1747106706": {
+      "humidity": 52.3,
+      "lux": 6523.33301,
+      "readable_time": "2025-05-13 08:55:06",
+      "solar_voltage": 3.7851,
+      "temperature": 35.8
+    },
+    "1747106768": {
+      "humidity": 52.3,
+      "lux": 6499.1665,
+      "readable_time": "2025-05-13 08:56:08",
+      "solar_voltage": 3.79731,
+      "temperature": 35.7
+    },
+    "1747106831": {
+      "humidity": 52.3,
+      "lux": 6504.1665,
+      "readable_time": "2025-05-13 08:57:11",
+      "solar_voltage": 3.779,
+      "temperature": 35.8
+    },
+    "1747106893": {
+      "humidity": 51.9,
+      "lux": 6750.83301,
+      "readable_time": "2025-05-13 08:58:13",
+      "solar_voltage": 3.79731,
+      "temperature": 35.9
+    },
+    "1747106956": {
+      "humidity": 51.8,
+      "lux": 6765.83301,
+      "readable_time": "2025-05-13 08:59:16",
+      "solar_voltage": 3.81563,
+      "temperature": 35.8
+    },
+    "1747107019": {
+      "humidity": 51.6,
+      "lux": 6814.1665,
+      "readable_time": "2025-05-13 09:00:19",
+      "solar_voltage": 3.81563,
+      "temperature": 35.9
+    },
+    "1747108211": {
+      "humidity": 51.8,
+      "lux": 7603.33301,
+      "readable_time": "2025-05-13 09:20:11",
+      "solar_voltage": 3.89499,
+      "temperature": 35.6
+    },
+    "1747108275": {
+      "humidity": 52,
+      "lux": 7611.6665,
+      "readable_time": "2025-05-13 09:21:15",
+      "solar_voltage": 3.85226,
+      "temperature": 35.6
+    },
+    "1747108338": {
+      "humidity": 51.4,
+      "lux": 7582.49951,
+      "readable_time": "2025-05-13 09:22:18",
+      "solar_voltage": 3.85226,
+      "temperature": 35.9
+    },
+    "1747108401": {
+      "humidity": 50.6,
+      "lux": 7626.6665,
+      "readable_time": "2025-05-13 09:23:21",
+      "solar_voltage": 3.88889,
+      "temperature": 36
+    },
+    "1747108465": {
+      "humidity": 51.1,
+      "lux": 7665.83301,
+      "readable_time": "2025-05-13 09:24:25",
+      "solar_voltage": 3.88278,
+      "temperature": 36
+    },
+    "1747108528": {
+      "humidity": 50.8,
+      "lux": 7674.1665,
+      "readable_time": "2025-05-13 09:25:28",
+      "solar_voltage": 3.88889,
+      "temperature": 36
+    },
+    "1747108591": {
+      "humidity": 50.1,
+      "lux": 7741.6665,
+      "readable_time": "2025-05-13 09:26:31",
+      "solar_voltage": 3.9011,
+      "temperature": 36.2
+    },
+    "1747108655": {
+      "humidity": 49.9,
+      "lux": 7831.6665,
+      "readable_time": "2025-05-13 09:27:35",
+      "solar_voltage": 3.91941,
+      "temperature": 36.1
+    },
+    "1747108718": {
+      "humidity": 50.4,
+      "lux": 8061.6665,
+      "readable_time": "2025-05-13 09:28:38",
+      "solar_voltage": 3.85226,
+      "temperature": 35.9
+    },
+    "1747108781": {
+      "humidity": 51,
+      "lux": 8391.66602,
+      "readable_time": "2025-05-13 09:29:41",
+      "solar_voltage": 3.91331,
+      "temperature": 36.1
+    },
+    "1747108846": {
+      "humidity": 50.4,
+      "lux": 8849.16602,
+      "readable_time": "2025-05-13 09:30:46",
+      "solar_voltage": 3.9072,
+      "temperature": 36.1
+    },
+    "1747108909": {
+      "humidity": 50.9,
+      "lux": 9380.83301,
+      "readable_time": "2025-05-13 09:31:49",
+      "solar_voltage": 3.9072,
+      "temperature": 35.9
+    },
+    "1747108972": {
+      "humidity": 51.2,
+      "lux": 9988.33301,
+      "readable_time": "2025-05-13 09:32:52",
+      "solar_voltage": 3.87057,
+      "temperature": 35.7
+    },
+    "1747109037": {
+      "humidity": 51.4,
+      "lux": 10318.33301,
+      "readable_time": "2025-05-13 09:33:57",
+      "solar_voltage": 3.94994,
+      "temperature": 35.7
+    },
+    "1747109099": {
+      "humidity": 51.1,
+      "lux": 22553.33203,
+      "readable_time": "2025-05-13 09:34:59",
+      "solar_voltage": 3.9072,
+      "temperature": 35.5
+    },
+    "1747109162": {
+      "humidity": 51.8,
+      "lux": 45854.16406,
+      "readable_time": "2025-05-13 09:36:02",
+      "solar_voltage": 3.87668,
+      "temperature": 35.7
+    },
+    "1747109227": {
+      "humidity": 51.1,
+      "lux": 49664.99609,
+      "readable_time": "2025-05-13 09:37:07",
+      "solar_voltage": 3.85226,
+      "temperature": 36
+    },
+    "1747109290": {
+      "humidity": 50.7,
+      "lux": 50134.16406,
+      "readable_time": "2025-05-13 09:38:10",
+      "solar_voltage": 3.83394,
+      "temperature": 36.2
+    },
+    "1747109353": {
+      "humidity": 50.1,
+      "lux": 49839.99609,
+      "readable_time": "2025-05-13 09:39:13",
+      "solar_voltage": 3.86447,
+      "temperature": 36.6
+    },
+    "1747109417": {
+      "humidity": 48.8,
+      "lux": 50219.16406,
+      "readable_time": "2025-05-13 09:40:17",
+      "solar_voltage": 3.81563,
+      "temperature": 36.5
+    },
+    "1747109481": {
+      "humidity": 49.8,
+      "lux": 50591.66406,
+      "readable_time": "2025-05-13 09:41:21",
+      "solar_voltage": 3.85226,
+      "temperature": 36.5
+    },
+    "1747109544": {
+      "humidity": 49,
+      "lux": 51094.99609,
+      "readable_time": "2025-05-13 09:42:24",
+      "solar_voltage": 3.88278,
+      "temperature": 36.8
+    },
+    "1747109609": {
+      "humidity": 49.3,
+      "lux": 51340.83203,
+      "readable_time": "2025-05-13 09:43:29",
+      "solar_voltage": 3.89499,
+      "temperature": 36.6
+    },
+    "1747109672": {
+      "humidity": 50.2,
+      "lux": 51297.49609,
+      "readable_time": "2025-05-13 09:44:32",
+      "solar_voltage": 3.9072,
+      "temperature": 36.1
+    },
+    "1747109735": {
+      "humidity": 50.8,
+      "lux": 51308.33203,
+      "readable_time": "2025-05-13 09:45:35",
+      "solar_voltage": 3.92552,
+      "temperature": 35.8
+    },
+    "1747109800": {
+      "humidity": 51.3,
+      "lux": 51271.66406,
+      "readable_time": "2025-05-13 09:46:40",
+      "solar_voltage": 3.91941,
+      "temperature": 35.4
+    },
+    "1747109863": {
+      "humidity": 51.6,
+      "lux": 50865.83203,
+      "readable_time": "2025-05-13 09:47:43",
+      "solar_voltage": 3.89499,
+      "temperature": 35.3
+    },
+    "1747109926": {
+      "humidity": 52.1,
+      "lux": 51036.66406,
+      "readable_time": "2025-05-13 09:48:46",
+      "solar_voltage": 3.9072,
+      "temperature": 35.4
+    },
+    "1747109990": {
+      "humidity": 51.3,
+      "lux": 51263.33203,
+      "readable_time": "2025-05-13 09:49:50",
+      "solar_voltage": 3.9011,
+      "temperature": 35.7
+    },
+    "1747110054": {
+      "humidity": 50.8,
+      "lux": 51589.99609,
+      "readable_time": "2025-05-13 09:50:54",
+      "solar_voltage": 3.89499,
+      "temperature": 35.9
+    },
+    "1747110117": {
+      "humidity": 50.4,
+      "lux": 51625.83203,
+      "readable_time": "2025-05-13 09:51:57",
+      "solar_voltage": 3.82784,
+      "temperature": 36.2
+    },
+    "1747110181": {
+      "humidity": 49.5,
+      "lux": 52231.66406,
+      "readable_time": "2025-05-13 09:53:01",
+      "solar_voltage": 3.86447,
+      "temperature": 36.8
+    },
+    "1747110244": {
+      "humidity": 48.7,
+      "lux": 52527.49609,
+      "readable_time": "2025-05-13 09:54:04",
+      "solar_voltage": 3.86447,
+      "temperature": 37
+    },
+    "1747115255": {
+      "humidity": 72.6,
+      "lux": 190.83333,
+      "readable_time": "2025-05-13 11:17:35",
+      "solar_voltage": 0,
+      "temperature": 31.1
+    },
+    "1747115319": {
+      "humidity": 72.5,
+      "lux": 225.83333,
+      "readable_time": "2025-05-13 11:18:39",
+      "solar_voltage": 0,
+      "temperature": 31.1
+    },
+    "1747115382": {
+      "humidity": 72.1,
+      "lux": 223.33333,
+      "readable_time": "2025-05-13 11:19:42",
+      "solar_voltage": 0.09768,
+      "temperature": 31.3
+    }
+  }
+}
